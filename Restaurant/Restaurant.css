@@ -1,0 +1,100 @@
+.maindiv
+{
+    width:1350px;
+    height:690px;
+    background-image:linear-gradient(to right, red,rgb(117, 0, 128));
+    margin: auto;   
+}
+/* titles div */
+.list li
+{
+    display: inline-block;
+    color:white;   
+}
+.li1
+{
+    margin-left:430px;
+    color: white;
+}
+.li2
+{
+    border-right:2px solid white ;
+    color: white;
+    margin-left: 300px;
+}
+.li2:hover,.li3:hover
+{
+    background-color: red;
+    font-size: 30px;
+}
+/* block 1 */
+.block1
+{
+    display:flex;
+    width: 100%;
+    margin-left:30px;
+}
+.button1
+{
+    height:45px;
+    width:246px;
+    background-color:yellow;
+    text-align: center;
+    margin-left: 10px;
+}
+.button1:hover
+{
+
+    background-color:rgb(247, 55, 205);
+    color:white;
+    border-radius: 5px;
+}
+
+
+/* block 2 */
+.block2
+{
+    display: flex;
+    margin: 38px;
+    height: 300px;
+}
+.image
+{
+    width:70%;
+}
+.dolers
+{
+     width: 30%;
+}
+.doler1
+{
+    height: 140px;
+    margin-left: 20px;
+    margin-bottom: 10px;   
+}
+.doler2
+{
+    height: 140px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/* block 3 */
+.block3
+{
+    display:flex;
+    margin-left: 26px;
+}
+.button3
+{
+    height:150px;
+    width: 306px;
+    background-color:white; 
+    text-align: center;
+    margin-left:15px;
+    transition-property: width;
+    transition-duration: 2s;
+}
+
+  .button3:hover {
+    width: 100px;
+  }

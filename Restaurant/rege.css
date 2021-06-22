@@ -1,0 +1,19 @@
+body 
+{
+background-image: url(./image/login.webp);
+background-size:1550px 900px;
+background-repeat:no-repeat;
+margin-top: 100px;
+
+}
+.login
+{
+    width:400px;
+    height: 400px;
+    background-color:rgb(38, 157, 236) ;
+    margin-left:550px;
+    padding-top: 50px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
